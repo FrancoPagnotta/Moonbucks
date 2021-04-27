@@ -8,7 +8,7 @@
 body {
     font-family: 'Ultra', serif;
     font-family: 'Vidaloka', serif;
-    background-image: url("/img/fondo2.jpg");
+    background-image: url("https://francopagnotta.github.io/Moonbucks/img/fondo2.jpg");
     background-position:center;
     background-attachment: fixed;
     background-size: cover;
