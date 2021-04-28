@@ -36,7 +36,7 @@ body {
     margin: 3.16em auto;
     width: 37.5em; 
     height: 57.5em;
-    background-color: rgba(255,255,255,.3);
+    background-color: rgba(240,240,240,.6);
     border: 1px solid rgba(255,255,255,1);
     border-radius: 10px;
     /* background: red; */
@@ -86,9 +86,11 @@ body {
     color: rgba(0,0,0,.9);
 }
 
-.form input {
+.inputs-form input {
     display: block;
-    margin: 1.25em auto;
+    margin-bottom: 1.25em;
+    margin-left: auto;
+    margin-right: auto;
     padding: 1.25em;
     width: 25em;
     border-radius: 10px;
@@ -98,7 +100,7 @@ body {
     outline: none;
 }
 
-.form input:hover {
+.inputs-form input:hover {
     background-color: rgba(255,2555,255,.7);
     transition: .4s ease-in-out;
     outline: none;
@@ -242,7 +244,7 @@ body {
     .div-links {
         display: flex;
         justify-content: center;
-        margin-top: -1em;
+        margin-top: -2em;
     }
 
     .div-links > a {
