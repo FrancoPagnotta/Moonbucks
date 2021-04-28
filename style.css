@@ -60,7 +60,7 @@ body {
     display: block;
     font-size:35px;
     text-align: center;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     color: rgba(0,0,0,.9);
 }
 
@@ -120,6 +120,16 @@ body {
     background-color: rgba(102,205,170, .5);
 }
 
+/* .form button:active {
+    background-color: rgba(180,180,180,.1);
+    font-size: 25px;
+    letter-spacing: 2px;
+    transition: .4s ease-in-out;
+    outline: none;
+    width: 400px;
+    background-color: rgba(102,205,170, .5);
+} */
+
 .div-links {
     text-align: center;
 }
@@ -147,57 +157,78 @@ body {
     transition: .3s ease;
 }
 
+
+
+
+/* RESPONSIVE DESIGN */
+
 @media (max-width:800px) {
     .container {
         margin-top: -50px;
     }
     
-   
+   body {
+       background-position:inherit;
+   }
    
     .form {
-        width: 300px;
-        height: 650px;
+        width: 250px;
+        height: 450px;
+    }
+
+    .inputs-form {
+        margin-top: 25px;
     }
 
     .form h1 {
-        margin-top: 25px;
+        margin-top: 15px;
         display: block;
-        font-size:45px;
+        font-size:35px;
         text-align: center;
         font-weight: lighter;
         letter-spacing: 5px;
         color: rgb(0, 0, 0);
     }
     
-    /* .form {
-        margin-bottom: 20px;
-    } */
     
     .form span {
-        margin: 30px;
-        font-size:25px;
+        margin: 5px;
+        font-size:15px;
     }
     
     .form input {
         display: block;
-        margin: 20px auto;
-        padding: 10px;
-        width: 250px;
-        font-size:20px;
+        margin: 10px auto;
+        padding: 5px;
+        width: 200px;
+        font-size:15px;
+    }
+
+    .inputs-form label {
+        font-size: 20px;
+    }
+
+    .form small {
+        font-size: 15px;
     }
     
     .form button {
         margin: 20px auto;
-        padding: 9px;
-        width: 160px;
-        font-size:20px;
+        padding: 5px;
+        width: 100px;
+        font-size:15px;
+    }
+    
+    .div-button button:active {
+        width: 200px;
+        padding: 5px;
+        font-size: 15px;
         
     }
-
     .div-links {
         display: flex;
         justify-content: center;
-        margin-top: -20px;
+        margin-top: -50px;
     }
 
     .div-links > a {
